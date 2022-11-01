@@ -1,0 +1,8 @@
+## IDF Component Manager Manifest File
+version: "0.3.0"
+description: Golioth SDK for ESP-IDF
+url: https://github.com/golioth/golioth-esp-idf-sdk
+dependencies:
+    espressif/coap: "4.3.1~1-rc.1"
+    ## Required IDF version
+    idf: ">=5.0"
