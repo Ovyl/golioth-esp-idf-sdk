@@ -12,6 +12,7 @@
 #include "freertos/semphr.h"
 #include "golioth_fw_update.h"
 #include "golioth_statistics.h"
+#include "esp_app_format.h"
 
 #define TAG "golioth_fw_update"
 

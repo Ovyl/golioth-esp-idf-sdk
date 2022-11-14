@@ -23,7 +23,7 @@ idf_component_register(
     "golioth_statistics.c"
     "golioth_settings.c")
 
-target_compile_options(${COMPONENT_LIB} PRIVATE "-Wno-format")
+target_compile_options(${COMPONENT_LIB} PRIVATE "-Wno-format" PRIVATE "-Werror")
 
 # TODO - Remove esp_libcoap dependency if/when upstream esp-idf updates the
 # libcoap component to a more recent commit
